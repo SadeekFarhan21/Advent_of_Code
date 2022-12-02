@@ -1,4 +1,4 @@
-with open("Day_2.in") as file:
+with open("Day_2_Challenge_1.in") as file:
     data = [i for i in file.read().strip().split("\n")]
 
 total = 0
