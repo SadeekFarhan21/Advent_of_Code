@@ -1,1 +1,1 @@
-# print('Total: ', tota
+total += points
