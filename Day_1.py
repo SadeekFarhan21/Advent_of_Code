@@ -1,7 +1,5 @@
 with open('Day_1.in') as file:
     data = [i for i in file.read().split('\n')]
-# print(data)
-
 
 sum_array = [] # sum of each chunk
 total = 0 # current total of the traversal 
@@ -13,7 +11,7 @@ for item in data:
         total += int(item) # adds the integer value of the item to total
 
 print(max(sum_array)) # max of the whole list
-sum_array = sorted(sum_array) 
+sum_array = sorted(sum_array) # sorts the list
 print(sum_array[-1] + sum_array[-2] + sum_array[-3]) # sum of three highest values
 
 
