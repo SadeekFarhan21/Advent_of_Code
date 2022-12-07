@@ -1,4 +1,4 @@
-with open('Day_4.in') as file:
+with open('Day_4_Challenge_1.in') as file:
     string_list = [i for i in file.read().strip().split('\n')]
 count = 0
 for i in string_list:
@@ -14,7 +14,7 @@ for i in string_list:
         print(lower_limit, upper_limit)
         print(given_lower, given_higher)
         '''
-        if(lower_limit <= given_lower and upper_limit >= given_higher):
-            print(lower_limit, upper_limit, given_lower, given_higher)
+        if((lower_limit <= given_lower and upper_limit >= given_higher)): # or (lower_limit >= given_lower and upper_limit <= given_higher)):
+            # print(lower_limit, upper_limit, given_lower, given_higher)
             count += 1    
 print(count)
